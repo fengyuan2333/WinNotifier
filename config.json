@@ -1,0 +1,16 @@
+{
+    "startup_enabled": true,
+    "shutdown_enabled": true,
+    "notification_method": "bark",
+    "bark": {
+        "server_url": "https://api.day.app/",
+        "device_key": "yphMZQCvksbyz3CFXMeufX"
+    },
+    "email": {
+        "smtp_server": "",
+        "smtp_port": 465,
+        "sender": "",
+        "password": "",
+        "receiver": ""
+    }
+}

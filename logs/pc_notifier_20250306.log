@@ -1,0 +1,264 @@
+2025-03-06 13:08:32,132 - INFO - 程序以 py 方式启动
+2025-03-06 13:08:32,133 - INFO - 配置文件不存在，使用默认配置
+2025-03-06 13:10:28,236 - INFO - 程序以 py 方式启动
+2025-03-06 13:10:28,236 - INFO - 配置文件不存在，使用默认配置
+2025-03-06 13:10:46,525 - INFO - 检查开机启动状态: False
+2025-03-06 13:10:48,327 - INFO - 检查开机启动状态: False
+2025-03-06 13:10:49,886 - INFO - 检查开机启动状态: False
+2025-03-06 13:10:51,746 - INFO - 检查开机启动状态: False
+2025-03-06 13:10:52,705 - INFO - 配置保存成功
+2025-03-06 13:10:53,628 - INFO - 已添加到开机启动项
+2025-03-06 13:10:53,629 - INFO - 关机监听已启动
+2025-03-06 13:10:53,693 - INFO - 配置已更新并保存
+2025-03-06 13:10:55,560 - INFO - 检查开机启动状态: True
+2025-03-06 13:10:58,236 - INFO - 检查开机启动状态: True
+2025-03-06 13:11:01,101 - INFO - 配置保存成功
+2025-03-06 13:11:01,954 - INFO - 已从开机启动项移除
+2025-03-06 13:11:01,954 - INFO - 关机监听已停止
+2025-03-06 13:11:01,955 - INFO - 配置已更新并保存
+2025-03-06 13:11:03,170 - INFO - 检查开机启动状态: False
+2025-03-06 13:12:09,727 - INFO - 配置保存成功
+2025-03-06 13:12:10,580 - INFO - 已添加到开机启动项
+2025-03-06 13:12:10,603 - INFO - 关机监听已启动
+2025-03-06 13:12:10,603 - INFO - 配置已更新并保存
+2025-03-06 13:12:12,193 - INFO - Bark消息发送成功
+2025-03-06 13:12:13,171 - INFO - 测试消息发送成功
+2025-03-06 13:12:20,245 - INFO - 配置保存成功
+2025-03-06 13:12:21,505 - INFO - 已添加到开机启动项
+2025-03-06 13:12:21,505 - INFO - 配置已更新并保存
+2025-03-06 13:12:30,631 - INFO - Bark消息发送成功
+2025-03-06 13:12:31,716 - INFO - 测试消息发送成功
+2025-03-06 13:12:47,875 - ERROR - 邮件配置不完整
+2025-03-06 13:12:49,830 - ERROR - 测试消息发送失败
+2025-03-06 13:12:53,401 - INFO - 配置保存成功
+2025-03-06 13:12:54,166 - INFO - 已添加到开机启动项
+2025-03-06 13:12:54,166 - INFO - 配置已更新并保存
+2025-03-06 13:13:04,337 - INFO - 创建托盘图标
+2025-03-06 13:13:04,338 - INFO - 最小化到托盘
+2025-03-06 13:13:07,551 - INFO - 显示主窗口
+2025-03-06 13:13:09,015 - INFO - 最小化到托盘
+2025-03-06 13:13:30,652 - INFO - 关机监听已停止
+2025-03-06 13:13:30,652 - INFO - 程序退出
+2025-03-06 13:13:31,733 - ERROR - An error occurred when calling message handler
+Traceback (most recent call last):
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_win32.py", line 412, in _dispatcher
+    return int(icon._message_handlers.get(
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_win32.py", line 224, in _on_notify
+    descriptors[index - 1](self)
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_base.py", line 328, in inner
+    callback(self)
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_base.py", line 453, in __call__
+    return self._action(icon, self)
+  File "c:\Users\Administrator\Desktop\SS\main.py", line 570, in _quit_app
+    self.root.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2311, in destroy
+    for c in list(self.children.values()): c.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2579, in destroy
+    for c in list(self.children.values()): c.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2579, in destroy
+    for c in list(self.children.values()): c.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2579, in destroy
+    for c in list(self.children.values()): c.destroy()
+  [Previous line repeated 1 more time]
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2580, in destroy
+    self.tk.call('destroy', self._w)
+RuntimeError: main thread is not in main loop
+2025-03-06 13:13:37,715 - INFO - 程序以 py 方式启动
+2025-03-06 13:13:37,715 - INFO - 配置文件加载成功
+2025-03-06 13:13:37,833 - INFO - 关机监听已启动
+2025-03-06 13:21:04,972 - INFO - 程序以 py 方式启动
+2025-03-06 13:21:04,973 - INFO - 配置文件加载成功
+2025-03-06 13:21:05,125 - INFO - 关机监听已启动
+2025-03-06 13:21:11,682 - INFO - 检查开机启动状态: True
+2025-03-06 13:21:16,932 - INFO - 配置保存成功
+2025-03-06 13:21:18,086 - INFO - 已从开机启动项移除
+2025-03-06 13:21:18,087 - INFO - 关机监听已停止
+2025-03-06 13:21:18,087 - INFO - 配置已更新并保存
+2025-03-06 13:21:22,221 - INFO - 检查开机启动状态: False
+2025-03-06 13:21:23,233 - INFO - 配置保存成功
+2025-03-06 13:21:24,324 - INFO - 已添加到开机启动项
+2025-03-06 13:21:24,326 - INFO - 关机监听已启动
+2025-03-06 13:21:24,326 - INFO - 配置已更新并保存
+2025-03-06 13:21:27,270 - INFO - 配置保存成功
+2025-03-06 13:21:28,284 - INFO - 已添加到开机启动项
+2025-03-06 13:21:28,284 - INFO - 配置已更新并保存
+2025-03-06 13:21:29,349 - INFO - 配置保存成功
+2025-03-06 13:21:30,320 - INFO - 已添加到开机启动项
+2025-03-06 13:21:30,320 - INFO - 配置已更新并保存
+2025-03-06 13:21:35,724 - INFO - 配置保存成功
+2025-03-06 13:21:36,527 - INFO - 已从开机启动项移除
+2025-03-06 13:21:36,528 - INFO - 关机监听已停止
+2025-03-06 13:21:36,528 - INFO - 配置已更新并保存
+2025-03-06 13:21:40,105 - INFO - 配置保存成功
+2025-03-06 13:21:40,960 - INFO - 已添加到开机启动项
+2025-03-06 13:21:40,961 - INFO - 关机监听已启动
+2025-03-06 13:21:40,961 - INFO - 配置已更新并保存
+2025-03-06 13:25:39,269 - INFO - 创建托盘图标
+2025-03-06 13:25:39,270 - INFO - 最小化到托盘
+2025-03-06 13:25:42,495 - INFO - 关机监听已停止
+2025-03-06 13:25:42,496 - INFO - 程序退出
+2025-03-06 13:25:43,596 - ERROR - An error occurred when calling message handler
+Traceback (most recent call last):
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_win32.py", line 412, in _dispatcher
+    return int(icon._message_handlers.get(
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_win32.py", line 224, in _on_notify
+    descriptors[index - 1](self)
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_base.py", line 328, in inner
+    callback(self)
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_base.py", line 453, in __call__
+    return self._action(icon, self)
+  File "c:\Users\Administrator\Desktop\SS\main.py", line 571, in _quit_app
+    self.root.lift()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2311, in destroy
+    for c in list(self.children.values()): c.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2579, in destroy
+    for c in list(self.children.values()): c.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2579, in destroy
+    for c in list(self.children.values()): c.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2579, in destroy
+    for c in list(self.children.values()): c.destroy()
+  [Previous line repeated 1 more time]
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2580, in destroy
+    self.tk.call('destroy', self._w)
+RuntimeError: main thread is not in main loop
+2025-03-06 13:25:49,672 - INFO - 程序以 py 方式启动
+2025-03-06 13:25:49,672 - INFO - 配置文件加载成功
+2025-03-06 13:25:49,770 - INFO - 关机监听已启动
+2025-03-06 13:25:49,780 - INFO - 成功注册关机监听窗口类
+2025-03-06 13:25:49,786 - INFO - 创建关机监听窗口，句柄: 855220
+2025-03-06 13:25:54,086 - INFO - 配置保存成功
+2025-03-06 13:25:55,989 - INFO - 已从开机启动项移除
+2025-03-06 13:25:55,989 - INFO - 关机监听已停止
+2025-03-06 13:25:55,989 - INFO - 配置已更新并保存
+2025-03-06 13:25:59,459 - INFO - 配置保存成功
+2025-03-06 13:26:00,397 - INFO - 已添加到开机启动项
+2025-03-06 13:26:00,398 - INFO - 关机监听已启动
+2025-03-06 13:26:00,398 - INFO - 配置已更新并保存
+2025-03-06 13:26:00,404 - INFO - 创建关机监听窗口，句柄: 1248436
+2025-03-06 13:26:02,264 - INFO - 创建托盘图标
+2025-03-06 13:26:02,268 - INFO - 最小化到托盘
+2025-03-06 13:26:05,129 - INFO - 关机监听已停止
+2025-03-06 13:26:05,129 - INFO - 程序退出
+2025-03-06 13:26:06,222 - ERROR - An error occurred when calling message handler
+Traceback (most recent call last):
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_win32.py", line 412, in _dispatcher
+    return int(icon._message_handlers.get(
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_win32.py", line 224, in _on_notify
+    descriptors[index - 1](self)
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_base.py", line 328, in inner
+    callback(self)
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_base.py", line 453, in __call__
+    return self._action(icon, self)
+  File "c:\Users\Administrator\Desktop\SS\main.py", line 595, in _quit_app
+    self.root.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2311, in destroy
+    for c in list(self.children.values()): c.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2579, in destroy
+    for c in list(self.children.values()): c.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2579, in destroy
+    for c in list(self.children.values()): c.destroy()
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2579, in destroy
+    for c in list(self.children.values()): c.destroy()
+  [Previous line repeated 1 more time]
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\tkinter\__init__.py", line 2580, in destroy
+    self.tk.call('destroy', self._w)
+RuntimeError: main thread is not in main loop
+2025-03-06 13:37:39,216 - INFO - 程序以 py 方式启动
+2025-03-06 13:37:39,217 - INFO - 配置文件加载成功
+2025-03-06 13:37:39,308 - INFO - 关机监听已启动
+2025-03-06 13:37:39,317 - INFO - 成功注册关机监听窗口类
+2025-03-06 13:37:39,323 - INFO - 创建关机监听窗口，句柄: 855558
+2025-03-06 13:37:43,978 - INFO - 创建托盘图标
+2025-03-06 13:37:43,978 - INFO - 最小化到托盘
+2025-03-06 13:37:46,219 - INFO - 关机监听已停止
+2025-03-06 13:37:46,220 - INFO - 程序退出
+2025-03-06 13:37:46,220 - ERROR - An error occurred when calling message handler
+Traceback (most recent call last):
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_win32.py", line 412, in _dispatcher
+    return int(icon._message_handlers.get(
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_win32.py", line 224, in _on_notify
+    descriptors[index - 1](self)
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_base.py", line 328, in inner
+    callback(self)
+  File "D:\anaconda3-2021.11\11\Anaconda3\lib\site-packages\pystray\_base.py", line 453, in __call__
+    return self._action(icon, self)
+  File "c:\Users\Administrator\Desktop\SS\main.py", line 595, in _quit_app
+    self.root.after(0, self._safe_destroy)
+AttributeError: 'NotifierApp' object has no attribute '_safe_destroy'
+2025-03-06 13:59:16,794 - INFO - 程序以 py 方式启动
+2025-03-06 13:59:16,794 - INFO - 配置文件加载成功
+2025-03-06 13:59:16,889 - INFO - 关机监听已启动
+2025-03-06 13:59:16,897 - INFO - 成功注册关机监听窗口类
+2025-03-06 13:59:16,901 - INFO - 创建关机监听窗口，句柄: 19925826
+2025-03-06 13:59:22,687 - INFO - Bark消息发送成功
+2025-03-06 13:59:24,088 - INFO - 测试消息发送成功
+2025-03-06 13:59:30,318 - INFO - Bark消息发送成功
+2025-03-06 13:59:31,289 - INFO - 测试消息发送成功
+2025-03-06 13:59:35,319 - INFO - 创建托盘图标
+2025-03-06 13:59:35,320 - INFO - 最小化到托盘
+2025-03-06 13:59:37,588 - INFO - 关机监听已停止
+2025-03-06 13:59:37,588 - INFO - 程序退出
+2025-03-06 13:59:50,732 - INFO - 程序以 py 方式启动
+2025-03-06 13:59:50,733 - INFO - 配置文件加载成功
+2025-03-06 13:59:50,828 - INFO - 关机监听已启动
+2025-03-06 13:59:50,835 - INFO - 成功注册关机监听窗口类
+2025-03-06 13:59:50,840 - INFO - 创建关机监听窗口，句柄: 4197894
+2025-03-06 13:59:53,352 - INFO - 创建托盘图标
+2025-03-06 13:59:53,352 - INFO - 最小化到托盘
+2025-03-06 14:00:08,837 - INFO - 检测到系统关机事件，消息ID: 17
+2025-03-06 14:00:09,272 - INFO - Bark消息发送成功
+2025-03-06 14:00:09,272 - INFO - 关机通知发送成功
+2025-03-06 14:00:09,377 - INFO - 检测到系统关机事件，消息ID: 22
+2025-03-06 14:00:09,727 - INFO - Bark消息发送成功
+2025-03-06 14:00:09,728 - INFO - 关机通知发送成功
+2025-03-06 14:04:44,631 - INFO - 程序以 py 方式启动
+2025-03-06 14:04:44,631 - INFO - 配置文件加载成功
+2025-03-06 14:04:44,855 - INFO - 关机监听已启动
+2025-03-06 14:04:44,893 - INFO - 成功注册关机监听窗口类
+2025-03-06 14:04:44,897 - INFO - 创建关机监听窗口，句柄: 67154
+2025-03-06 14:04:50,940 - INFO - 检查开机启动状态: True
+2025-03-06 15:01:39,858 - INFO - 程序以 py 方式启动
+2025-03-06 15:01:39,859 - INFO - 配置文件加载成功
+2025-03-06 15:01:39,961 - INFO - 关机监听已启动
+2025-03-06 15:01:39,968 - INFO - 成功注册关机监听窗口类
+2025-03-06 15:01:39,972 - INFO - 创建关机监听窗口，句柄: 983172
+2025-03-06 15:01:41,340 - INFO - 创建托盘图标
+2025-03-06 15:01:41,340 - INFO - 最小化到托盘
+2025-03-06 15:01:44,036 - INFO - 关机监听已停止
+2025-03-06 15:01:44,036 - INFO - 程序退出
+2025-03-06 15:15:00,310 - INFO - 程序以 py 方式启动
+2025-03-06 15:15:00,329 - INFO - 配置文件加载成功
+2025-03-06 15:15:00,753 - INFO - 关机监听已启动
+2025-03-06 15:15:00,837 - INFO - 成功注册关机监听窗口类
+2025-03-06 15:15:00,840 - INFO - 创建关机监听窗口，句柄: 133480
+2025-03-06 15:15:02,540 - INFO - 创建托盘图标
+2025-03-06 15:15:02,540 - INFO - 最小化到托盘
+2025-03-06 15:15:08,594 - INFO - 关机监听已停止
+2025-03-06 15:15:08,594 - INFO - 程序退出
+2025-03-06 15:17:37,358 - INFO - 程序以 py 方式启动
+2025-03-06 15:17:37,358 - INFO - 配置文件加载成功
+2025-03-06 15:17:37,442 - INFO - 关机监听已启动
+2025-03-06 15:17:37,449 - INFO - 成功注册关机监听窗口类
+2025-03-06 15:17:37,454 - INFO - 创建关机监听窗口，句柄: 264428
+2025-03-06 15:17:40,822 - INFO - 创建托盘图标
+2025-03-06 15:17:40,822 - INFO - 最小化到托盘
+2025-03-06 15:17:45,698 - INFO - 显示主窗口
+2025-03-06 15:17:54,903 - INFO - 最小化到托盘
+2025-03-06 15:18:05,786 - INFO - 关机监听已停止
+2025-03-06 15:18:05,787 - INFO - 程序退出
+2025-03-06 15:31:09,683 - INFO - 程序以 py 方式启动
+2025-03-06 15:31:09,683 - INFO - 配置文件加载成功
+2025-03-06 15:31:09,860 - INFO - 关机监听已启动
+2025-03-06 15:31:09,871 - INFO - 成功注册关机监听窗口类
+2025-03-06 15:31:09,875 - INFO - 创建关机监听窗口，句柄: 132372
+2025-03-06 15:31:12,489 - INFO - 创建托盘图标
+2025-03-06 15:31:12,490 - INFO - 最小化到托盘
+2025-03-06 15:31:16,315 - INFO - 显示主窗口
+2025-03-06 15:31:18,074 - INFO - 最小化到托盘
+2025-03-06 15:31:28,324 - INFO - 关机监听已停止
+2025-03-06 15:31:28,324 - INFO - 程序退出
+2025-03-06 15:31:34,730 - INFO - 程序以 py 方式启动
+2025-03-06 15:31:34,731 - INFO - 配置文件加载成功
+2025-03-06 15:31:34,812 - INFO - 关机监听已启动
+2025-03-06 15:31:34,819 - INFO - 成功注册关机监听窗口类
+2025-03-06 15:31:34,823 - INFO - 创建关机监听窗口，句柄: 197882

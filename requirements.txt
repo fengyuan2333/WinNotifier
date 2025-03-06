@@ -1,0 +1,7 @@
+tkinter
+pystray
+Pillow
+requests
+psutil
+pywin32
+wmi
