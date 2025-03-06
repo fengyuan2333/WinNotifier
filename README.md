@@ -39,7 +39,7 @@
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/yourusername/pc-notifier.git
+git clone https://github.com/fengyuan2333/WinNotifier.git
 cd pc-notifier
 ```
 
@@ -85,7 +85,6 @@ pip install pyinstaller
 
 2. 执行打包命令：
 ```bash
-# pyinstaller --noconsole --onefile --icon=icons/app_icon.png --add-data "icons/app_icon.png;icons" main.py
 pyinstaller --noconsole --onefile --icon=icons/app_icon.png --add-data=icons/app_icon.png:icons --add-data=config.json:. --add-data=logs:logs main.py
 
 ```
